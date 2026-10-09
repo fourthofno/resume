@@ -1,0 +1,188 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+% Pagestyle
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0pt}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\vline height 1.5pt width 1\textwidth\vspace{-5pt}]
+
+% Ensure PDF is machine readable (ATS friendly)
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Wing Hin Nathan Liu} \\ \vspace{4pt}
+    \small +44 (0)7724 559414 $|$ \href{mailto:nathan.liu11@hotmail.com}{\underline{nathan.liu11@hotmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/nathan-liu-a26856262/}{\underline{linkedin.com/in/nathan-liu-a26856262/}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Warwick}{Coventry, UK}
+      {BSc Mathematics}{Sept 2026 -- June 2029}
+      \resumeItemListStart
+        \resumeItem{\textbf{Relevant Modules:} Analysis, Linear Algebra, Differential Equations, Foundations, Probability.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {The Perse Upper School}{Cambridge, UK}
+      {A-Levels \& Academic Scholar}{Sept 2024 -- June 2026}
+      \resumeItemListStart
+        \resumeItem{\textbf{A-Levels:} Mathematics (\textbf{A*}), Further Mathematics (\textbf{A*}), Physics (\textbf{A}), Chemistry (\textbf{A})}
+        \resumeItem{\textbf{Awards:} Academic Award, Wharton Investment Competition Winner.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Stephen Perse Foundation Senior School}{Cambridge, UK}
+      {GCSEs \& Academic Scholar (75\% Sixth Form Scholarship)}{Sept 2021 -- July 2024}
+      \resumeItemListStart
+        \resumeItem{\textbf{GCSEs:} 11 Subjects with grades 999999998886 (including 9s in Mathematics, Additional Mathematics, Triple Science, Chinese, and English).}
+        \resumeItem{\textbf{Awards:} Outstanding Academic Award, Dawson Maths Award.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Work \& Project Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Bank of China}{London, UK}
+      {Finance Department Shadowing Intern}{Dec 2024 -- Jan 2025}
+      \resumeItemListStart
+        \resumeItem{Shadowed multi-disciplinary teams across Project Finance, M\&A, Transport, TMT, and Real Estate.}
+        \resumeItem{Analyzed complex project financing structures and debt metrics relating to the third runway expansion at London Heathrow Airport.}
+        \resumeItem{Gained operational exposure to cross-border M\&A deal mechanics, valuation methodologies, and corporate credit risk assessment.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Wharton Investment Competition}{Cambridge, UK}
+      {Lead Quantitative \& Emerging Markets Analyst}{Sept 2024 -- Jan 2025}
+      \resumeItemListStart
+        \resumeItem{Led regional research focused on macroeconomic trends and high-growth asset evaluation across Asian emerging markets.}
+        \resumeItem{Constructed portfolio allocation proposals balancing risk, growth, and fundamental sector analysis to pitch to competition judges.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Big Bang Academy}{Hong Kong SAR}
+      {Educational Content Developer Intern}{July 2023 -- Aug 2023}
+      \resumeItemListStart
+        \resumeItem{Designed structured STEM learning materials and interactive PowerPoints to simplify complex mathematical concepts for younger students.}
+        \resumeItem{Refined instructional clarity, communication skills, and educational software efficiency in a fast-paced environment.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {The University of Hong Kong (HKU)}{Hong Kong SAR}
+      {Social Sciences Summer Programme (AI \& Society Track)}{July 2023}
+      \resumeItemListStart
+        \resumeItem{Awarded \textbf{Best Project Presentation Award} for research on computer vision integration and AI vs. real-world image classification.}
+        \resumeItem{Analyzed visual artifacts, pixel anomalies, and ethical framework models used to distinguish synthetic AI media from real photographs.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Independent STEM Tutor}{Cambridge, UK \& Remote}
+      {Mathematics \& Science Tutor}{Sept 2021 -- Present}
+      \resumeItemListStart
+        \resumeItem{Delivered tailored online and in-person tutoring in Mathematics and Sciences for secondary school students over 3+ years.}
+        \resumeItem{Managed ongoing client communications, scheduled lesson plans, and adapted teaching methodologies to build student resilience and confidence.}
+        \resumeItem{Developed effective time management practices to balance high-volume client demands alongside rigorous personal academic study.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------HONOURS & AWARDS-----------
+\section{Honours \& Competitions}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Mathematics \& STEM Olympiads}{UKMT \& National Competitions}
+      {Academic Awards \& Certificates}{2021 -- 2024}
+      \resumeItemListStart
+        \resumeItem{\textbf{UKMT Senior Maths Challenge:} 3$\times$ Gold Award}
+        \resumeItem{\textbf{UKMT Intermediate Maths Challenge:} 3$\times$ Gold Award}
+        \resumeItem{\textbf{British Mathematical Olympiad (BMO1):} 2$\times$ Merit}
+        \resumeItem{\textbf{UKMT Kangaroo Challenges:} 3$\times$ Merit (Grey and Pink)}
+        \resumeItem{\textbf{National Science Olympiads:} Silver Award in British Physics Olympiad, Silver Award in UK Chemistry Olympiad}
+        \resumeItem{\textbf{Language \& Arts:} Anthea Bell Translation Award}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------SKILLS & EXTRA-CURRICULAR-----------
+\section{Skills, Activities \& Interests}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages:}{ Native/Fluent in English and Cantonese; Conversational French and Mandarin} \\
+     \textbf{Technical Skills:}{ Microsoft Excel, Microsoft Office, Mathematical \& Data Modeling} \\
+     \textbf{Leadership \& Badges:}{ Vice Captain (Cricket \& Badminton Teams); Duke of Edinburgh (Bronze, Silver, Gold Awards)} \\
+     \textbf{Sports:}{ Stapleford Men's 1st XI Cricket, Stephen Perse 1st XI Cricket, Perse 1st XI Badminton, Perse 2nd XI Cricket}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
